@@ -129,7 +129,7 @@ Configure oc (The openshiftconfig binary) on your terminal.
 eval $(crc oc-env)
 ```
 
-Not login using `oc` as the `developer` user:
+Now login using `oc` as the `developer` user:
 
 ```
 oc login -u developer https://api.crc.testing:6443
