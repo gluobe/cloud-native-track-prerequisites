@@ -52,5 +52,5 @@ OS/Arch:      linux/amd64
 If you validated that `podman` is working, you can stop it until you need in the workshop (as `podman` runs inside a VM it will use quite a lot of CPU and memory if you leave it running):
 
 ```
-podman machine start
+podman machine stop
 ```
