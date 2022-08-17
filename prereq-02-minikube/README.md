@@ -31,12 +31,19 @@ minikube version: v1.4.0
 commit: 7969c25a98a018b94ea87d949350f3271e9d64b6
 ```
 
+We will be running Minikube through [hyperkit](https://github.com/moby/hyperkit) that we will install using brew:
+
+```
+brew install hyperkit
+```
+
+
 ## Step 2: Running Minikube
 
 To start Minikube run the `minikube start` command (it might take a couple of minutes before Minikube has started):
 
 ```
-minikube start
+minikube start --driver=hyperkit
 
 ---
 
